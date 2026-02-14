@@ -9,7 +9,7 @@
       async function check() {
       if (word.trim()=="") return;
       try {
-        const res = await fetch(`http://localhost:5000/word/${word}`);
+        const res = await fetch(`https://lexilog.onrender.com/word/${word}`);
 
         if (!res.ok) {
           setMeaning([{ definition: "Word not found!" }]);
