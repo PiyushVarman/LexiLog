@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: Montserrat;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+}
+
+a {
+  @apply text-gray-500;
+  text-decoration: inherit;
+  transition: 0.1s ease-in-out;
+}
+a:hover {
+  @apply text-white;
+}
+
+
