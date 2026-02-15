@@ -45,10 +45,10 @@
       },[word,showCard]);
       return (
         <>
-          <div className='m-0 md:m-0 xl:m-0 flex flex-col place-items-center'>
+          <div className='mt-50 md:m-0 xl:m-0 flex flex-col place-items-center'>
           <div className='flex flex-col place-items-center'>
-            <h1 className='mt-[25vh] md:mt-[15vh] xl:mt-[22vh]  scale-200 text-[12vw] md:text-7xl xl:text-9xl font-bold text-transparent bg-linear-to-t from-black/90  to-white bg-clip-text'>LexiLog</h1>
-            <p className='mt-[2vh] md:mt-[3vh] xl:mt-[5vh] text-4xl xl:text-5xl mb-10 font-["Inconsolata"]  text-gray-300 hover:scale-105 hover:text-white text-shadow-lg hover:cursor-none hover:text-shadow-white/10 transition-all duration-600 z-10'>A minimalistic <font className="font-['montserrat'] text-4xl xl:text-6xl bg-linear-to-t from-black-5 to-white bg-clip-text text-transparent"><strong>dictionary.</strong></font></p>
+            <h1 className='md:mt-[15vh] xl:mt-[22vh]  scale-200 text-[12vw] md:text-7xl xl:text-9xl font-bold text-transparent bg-linear-to-t from-black/90  to-white bg-clip-text'>LexiLog</h1>
+            <p className='mt-[0vh] md:mt-[3vh] xl:mt-[5vh] text-4xl xl:text-5xl mb-10 font-["Inconsolata"]  text-gray-300 hover:scale-105 hover:text-white text-shadow-lg hover:cursor-none hover:text-shadow-white/10 transition-all duration-600 z-10'>A minimalistic <font className="font-['montserrat'] text-4xl xl:text-6xl bg-linear-to-t from-black-5 to-white bg-clip-text text-transparent"><strong>dictionary.</strong></font></p>
             </div>
             <form onSubmit={(e) => e.preventDefault()}>
               <input type="text" id='dictionary' placeholder="What are you looking for?" value={word} onChange={(e) => setWord(e.target.value)} className='outline text-center text-2xl xl:text-3xl h-10 xl:h-15 w-80 xl:w-200 bg-none text-white rounded-2xl focus:outline-yellow-500 focus:scale-110 transition-all duration-600'></input><br/>
