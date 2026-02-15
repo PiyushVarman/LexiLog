@@ -26,6 +26,7 @@
 - `Vercel` used to deploy the frontend of the page
 
 <hr>
+
 <div align="center">
   
 I look forward to your feedback and suggestions.
@@ -33,3 +34,4 @@ I look forward to your feedback and suggestions.
 Drop a ⭐ if you liked the project!
 
 </div>
+
