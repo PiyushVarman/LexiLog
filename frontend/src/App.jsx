@@ -64,11 +64,11 @@
                 {item.definition}
               </p>
             ))}
-            <a className='text-3xl cursor-pointer' onClick={() => setShowCard(false)}><br/>Back to Dictionary</a>
+            <a className='text-xl xl:text-3xl cursor-pointer' onClick={() => setShowCard(false)}><br/>Back to Dictionary</a>
             </motion.div>
             </>
             }
-            <a href="https://github.com/piyushvarman/lexilog" target="_blank" ><img src={github} title="Github Repository" className='cursor-pointer drop-shadow-amber-900 w-10 h-10 mt-10 m-auto hover:scale-110 transition duration-75'></img></a>
+            <a href="https://github.com/piyushvarman/lexilog" target="_blank" ><img src={github} title="Github Repository" className='cursor-pointer drop-shadow-amber-900 w-10 h-10 mt-3 xl:mt-10 md:mt-0 md:ml-[92vw] xl:m-auto hover:scale-110 transition duration-75'></img></a>
           </div>
       </>
       )
