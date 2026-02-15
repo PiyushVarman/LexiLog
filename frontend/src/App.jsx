@@ -68,7 +68,7 @@
             </motion.div>
             </>
             }
-            <a href="https://github.com/piyushvarman/lexilog" target="_blank" ><img src={github} title="Github Repository" className='cursor-pointer drop-shadow-amber-900 w-10 h-10 mt-3 xl:mt-10 md:mt-0 md:ml-[92vw] xl:m-auto hover:scale-110 transition duration-75'></img></a>
+            <a href="https://github.com/piyushvarman/lexilog" target="_blank" ><img src={github} title="Github Repository" className='cursor-pointer drop-shadow-amber-900 w-10 h-10 mt-5 xl:mt-10 md:mt-0 md:ml-[92vw] xl:m-auto hover:scale-110 transition duration-75'></img></a>
           </div>
       </>
       )
